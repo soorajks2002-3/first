@@ -171,7 +171,7 @@ st.subheader("Base Policy: ")
 inp[30] = st.selectbox("Select base policy" , ("Collision" , "Liability" , "All Perils"))
 
 if(st.button("SUBMIT")) :
-    if inp[3] == 'Ford' :
+    if inp[3] == "Ford" :
       st.header('FRAUD CLAIM')
     else :
       st.header(predict(inp))
