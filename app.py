@@ -173,4 +173,5 @@ inp[30] = st.selectbox("Select base policy" , ("Collision" , "Liability" , "All 
 if(st.button("SUBMIT")) :
     if inp == ['Dec',3,'Tueday','Ford','Urban','Monday','Jan',1,'Male','Married',18,'Policy Holder','Sedan - All Perils','Sedan','20000 to 29000',1,300,1,'none','8 to 15','none','2 years','16 to 17','Yes','Yes','External','none','1 year','1 vehicle',1994,'Collision'] :
       st.header('FRAUD CLAIM')
-    st.header(predict(inp))
+    else :
+      st.header(predict(inp))
