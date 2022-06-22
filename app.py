@@ -83,7 +83,7 @@ st.subheader("Week Of Month:")
 inp[1] = st.selectbox("Give week of month" , (1,2,3,4,5))
 
 st.subheader("Day Of Week")
-inp[2] = st.selectbox("Select day of week:" , ("Monday" , "Tueday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday"))
+inp[2] = st.selectbox("Select day of week:" , ("Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday"))
 
 st.subheader("Maker Of Vehicle")
 inp[3] = st.selectbox("Select maker of vehicle" , ("Toyota" , "Honda"  , "Mazda" , "Chevrolet" , "Accura" , "Ford" , "VW" , "Dodge" , "Saab" , "Mercury" , "Saturn" , "Nissan" , "BMW"))
@@ -92,7 +92,7 @@ st.subheader("Accident Area:")
 inp[4] = st.selectbox("Select Accident Area" , ("Urban" , "Rural"))
 
 st.subheader("Day Of Week Claimed: ")
-inp[5] = st.selectbox("Select day of week Claimed:" , ("Monday" , "Tueday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday"))
+inp[5] = st.selectbox("Select day of week Claimed:" , ("Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday"))
 
 st.subheader("Month Claimed: ")
 inp[6] = st.selectbox("Select Month Claimed" , ("Jan" , "Feb" , "Mar" , "Apr" , "May" , "Jun" , "Jul" , "Aug" , "Sep" , "Oct" , "Nov" , "Dec"))
@@ -137,7 +137,7 @@ st.subheader("Days Policy Claim: ")
 inp[19] = st.selectbox("Enter days policy claim" , ("8 to 15","15 to 30","more than 30"))
 
 st.subheader("Past Number Of Claims: ")
-inp[20] = st.selectbox("Select past number of claims" , ("none","1","2 to 4 ","more than 4"))
+inp[20] = st.selectbox("Select past number of claims" , ("none","1","2 to 4","more than 4"))
 
 st.subheader("Age Of Vehicle: ")
 inp[21] = st.selectbox("Select age of vehicle: " , ('2 years', '3 years', '4 years', '5 years', '6 years', '7 years','more than 7', 'new'))
